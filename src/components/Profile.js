@@ -27,7 +27,6 @@ function Profile({ token }) {
           <>
             <Card.Title>Bienvenido, {player.name}</Card.Title>
             <Card.Text>Email: {player.email}</Card.Text>
-            <Card.Text>Goles: {player.goals}</Card.Text>
           </>
         ) : (
           <Card.Text>{error || 'Cargando perfil...'}</Card.Text>
